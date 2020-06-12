@@ -1,0 +1,68 @@
+li.dev-item{
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+    padding-top: 5px;
+    position: relative;
+}
+
+li.dev-item header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+li.dev-item header img{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+li.dev-item header .user-info{
+    margin-left: 10px;
+}
+
+li.dev-item .delete-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-bottom: auto;
+    fill:rgba(0, 0, 0, 0.5)
+}
+
+li.dev-item .delete-icon:hover{
+    fill: red;
+}
+
+
+.user-info strong{
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.user-info span{
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+li.dev-item p{
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+li.dev-item .github-link{
+    position: absolute;
+    margin-bottom: 10px;
+    bottom: 0;
+}
+
+li.dev-item a:hover{
+    color: #6931CA
+}
